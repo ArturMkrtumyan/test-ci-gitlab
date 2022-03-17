@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class TestCiGitlabApplication {
+
     @GetMapping
     public String test(){
         return "Hello gitlab CI";
